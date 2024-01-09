@@ -2,7 +2,10 @@
 
 * {
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .app-container {
